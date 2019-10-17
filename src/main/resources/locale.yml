@@ -1,0 +1,16 @@
+loading_config: '&a正在加载配置文件 ...'
+loading_config_fail: '&c读取配置文件失败：{0}'
+no_such_menu: '&c指定的菜单没有对应的文件：{0}'
+no_title: '&c菜单 {0} 没有提供标题(title)'
+bad_id: '&c菜单 {0} 设置的点击物品开启的 ID 不规范：{1}'
+conflict_command: '&c菜单 {0} 指定的命令 {1} 与现有命令冲突'
+conflict_item: '&c菜单 {0} 指定的开启物品 {1} 已经使用过了'
+list_menu: '&6所有可用菜单如下'
+no_permission: '&c你没有权限这么做'
+player_only: '&c只有玩家可以这样做'
+load_menu: '&a加载了 {0} 个菜单'
+reload_menu: '&a重载了 {0} 个菜单'
+help_list: |-
+  &6======== &3Elementary 帮助菜单 &6========
+  &3/el open <菜单> &f- &e开启指定的菜单
+  &3/el reload &f &e重载插件

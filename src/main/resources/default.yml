@@ -1,0 +1,12 @@
+title: Test
+command: menu
+open_item: 347
+description: '描述文本'
+open_permission: test.permission
+
+elements:
+  xxx:
+    text: 测试指令
+    icon: 'textures/items/apple_golden.png'
+    permission: 'click.xxx'
+    command: 'say 2333;op: tp ~ ~5 ~'
