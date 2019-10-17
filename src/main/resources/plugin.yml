@@ -3,5 +3,11 @@ version: "${project.version}"
 api: ["1.0.0"]
 author: Zen
 main: zen.luckchat.LuckChatPlugin
-Depend: ["LuckPerms"]
-Softdepend: ["PlaceholderAPI", "Factions"]
+Softdepend: ["PlaceholderAPI", "Factions", "LuckPerms"]
+permissions:
+  elementary.open:
+    default: true
+  elementary.open.list:
+    default: true
+  elementary.reload:
+    default: op
